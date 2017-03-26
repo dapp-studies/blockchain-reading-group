@@ -1,0 +1,9 @@
+{
+	"plugins": ["mathjax", "addcssjs"],
+	"pluginsConfig": {
+		"addcssjs": {
+			"css": ["dist/semantic.min.css", "dist/custom.css"],
+			"js": ["dist/semantic.min.js", "dist/book.bundle.js"]
+		}
+	}
+}
