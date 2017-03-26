@@ -2,9 +2,6 @@
 
 
 
-**todo: Import in gitbooks. The papers are easy to browse there.**
-
-
 
 <p>
 
