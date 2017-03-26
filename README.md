@@ -1,6 +1,15 @@
 ### Blockchain Reading Group
 
+
+
+**todo: Import in gitbooks. The papers are easy to browse there.**
+
+
+
 <p>
+
+
+
 
 Blockchains, cryptocurrencies, and contracts are a source of far more
 problems than can be handled by developer communities and investors
@@ -30,45 +39,3 @@ Please leave any suggestions of your own below.
 
 
 ***
-
-
-
-<div id="_container""></div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript">
-	$('document').ready(function () 
-	{
-		entries.forEach((entry) => 
-		{
-			var d = document.createElement('div');
-			d.innerHTML =
-			`
-			<div class="ui centered segment">
-				<div class="title">
-					<a href="${entry.pdf_link}"><h4>${entry.title}</h4></a>
-				</div>
- 		      <div class="meta">
-			      	<span>${entry.author}, ${(new Date(entry.published)).toString().substring(0,16)}</span>
-			      	<br/>
-			      	&nbsp;
-			      	<emph>${entry.primary_category}</emph>
-	   		</div>
-			    <div class="content">
-						<div class="ui accordion">
-							<div class="title">
-						    	<i class="dropdown icon"></i>
-						    	Abstract
-						    </div>
-						    <div class="content"">
-							    <p class="transition hidden">${entry.abstract}</p>
-							</div>
-					  </div>
-			    </div>
-			</div>
-		<div class="ui hidden divider"></div>`;
-		$("#_container")[0].appendChild(d);
-		});
-		$('.ui.accordion').accordion();
-	});
-</script>
